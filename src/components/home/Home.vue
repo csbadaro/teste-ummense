@@ -1,25 +1,32 @@
 <template>
-  <section class="home">
+  <main class="home">
     <HomeA/>
     <HomeB/>
-  </section>
+    <HomeC/>
+    <HomeD/>
+  </main>
 </template>
 
 <script>
 import HomeA from './HomeA.vue'
 import HomeB from './HomeB.vue'
+import HomeC from './HomeC.vue'
+import HomeD from './HomeD.vue'
 
 export default {
   name: 'Home',
+
   data () {
     return {
-      msg: 'Gestão de projetos. Simples, ágil e inteligente.'
+      var: 'home vars aqui'
     }
   },
 
   components: {
     HomeA,
-    HomeB
+    HomeB,
+    HomeC,
+    HomeD
   }
 }
 </script>

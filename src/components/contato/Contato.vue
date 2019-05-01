@@ -1,18 +1,19 @@
 <template>
-  <section class="contato">
+  <main class="contato">
     <FaleConosco/>
-  </section>
+  </main>
 </template>
 
 <script>
 import FaleConosco from './FaleConosco.vue'
 
 export default {
+// Experimentando *___*
   name: 'Contato',
 
   data () {
     return {
-      msg: 'PAGE CONTATO'
+      var: 'contato vars aqui'
     }
   },
 
